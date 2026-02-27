@@ -77,26 +77,26 @@ const styles = StyleSheet.create({
     fontWeight: '200',
     color: '#1E293B',
   },
-  posMenos: {
+  botaoMenos: {
     position: 'absolute',
     left: 30,
     top: '65%',
   },
-  posMais: {
+  botaoMais: {
     position: 'absolute',
     alignSelf: 'center',
     top: '75%',
   },
-  posZerar: {
+  botaoZerar: {
     position: 'absolute',
     right: 30,
     top: '65%',
   },
   linhaDeBotoes: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
-    width: '100%',
-    paddingHorizontal: 30,
+    justifyContent: 'space-around',
+    width: '40%',
+    paddingHorizontal: 3,
     marginBottom: 40,
   },
   botao: {
